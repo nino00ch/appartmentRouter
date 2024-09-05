@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 85px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+nav ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: none;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+nav a {
+  text-decoration: none;
+  color: #121212;
+}
+.navButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+.navButtons button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.Plus {
+  background-color: #004f68;
+  color: #ffff;
+}
+.User {
+  background-color: #ffff;
+  color: #004f68;
+  font-weight: 500;
+}
+/* .middle {
+  background-image: url("../assets/heroBg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
+.rightSide img {
+  position: relative;
+  left: 40%;
+}
+
+.leftSide {
+  position: absolute;
+  top: 10%;
+}
+.leftSide h1 {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 700px;
+}
+.leftSide p {
+  color: #2f2f2f81;
+  line-height: 1.5;
+  font-size: 18px;
+  width: 650px;
+}
+.text {
+  margin-top: 90px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 5px;
+  background-color: #ffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.548);
+  border: none;
+  padding: 18px;
+  width: 90%;
+  margin-top: 40px;
+  margin-left: 40px;
+  position: absolute;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.box a {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: #2f2f2f81;
+}
+.searchBtn {
+  background-color: #004f68;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+footer p {
+  color: #2f2f2f81;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
